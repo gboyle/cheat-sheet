@@ -58,6 +58,14 @@ Add XkbOptions numpad:microsoft to /etc/X11/xorg.conf.d/00-keyboard.conf:
 
 #### Screen Saver Activates During Video Playback
 
+    # set time to blank screen (seconds)
+    gsettings set org.gnome.desktop.session idle-delay 3600
+
+    # set time after blanking to lock screen (seconds)
+    gsettings set org.gnome.desktop.screensaver lock-delay 0
+
+[Make Gnome screen lock after 1 hour, not 15 minutes?](http://superuser.com/questions/727120/make-gnome-screen-lock-after-1-hour-not-15-minutes)
+
 #### Mouse Cursor Remains Visible During Video Playback
 
 ### Code Editor
