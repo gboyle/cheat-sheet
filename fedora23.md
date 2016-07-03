@@ -52,6 +52,8 @@ Add XkbOptions numpad:microsoft to /etc/X11/xorg.conf.d/00-keyboard.conf:
 	
 [Fixing wrong Shift+Numpad (keypad) behaviour in Emacs](http://www.linux-pages.com/2013/06/fix-wrongshift-numpad-keypad-behaviour-in-emacs/)
 
+#### Fix Windows+Arrow on Numeric Keypad
+
 ### Video
 
 #### Screen Tearing During Video Playback
@@ -68,7 +70,25 @@ Add XkbOptions numpad:microsoft to /etc/X11/xorg.conf.d/00-keyboard.conf:
 
 #### Mouse Cursor Remains Visible During Video Playback
 
-### Code Editor
+### Gnome
+
+#### Minimize and Restore Windows
+
+#### Add Application to Activities Menu
+
+### Editors and Integrated Development Enviroments
+
+#### Nano
+
+#### Neovim
+
+#### Emacs
+
+#### Visual Studio Code
 
 [Download Visual Studio Code](https://code.visualstudio.com/Download)
+
+#### Eclipse
+
+[Download Eclipse Technology](https://www.eclipse.org/downloads/)
 
