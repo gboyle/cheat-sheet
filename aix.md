@@ -27,7 +27,7 @@
 
     awk '{ sub("\r$", ""); print }' dos.txt > aix.txt
 
-    [DOS to AIX conversion](https://www.ibm.com/developerworks/community/blogs/powermeup/entry/dos_to_aix_conversion13?lang=en)
+[DOS to AIX conversion](https://www.ibm.com/developerworks/community/blogs/powermeup/entry/dos_to_aix_conversion13?lang=en)
 
 ### Get SIDS of Each Shared Memory Object
 
@@ -71,56 +71,56 @@
 
 ### Links
 
-    [IBM AIX commands you should not leave home without ](http://www.ibm.com/developerworks/aix/library/au-aix_cmds/)
+[IBM AIX commands you should not leave home without ](http://www.ibm.com/developerworks/aix/library/au-aix_cmds/)
 
 ### TODO
 
-smitty
-svmon
-bootinfo -r
-lsattr -El sys0
-topas
-swap -s
-swap -l
-ipcs
-ipcrm
-procstack <pid>
-lslpp -l | grep xlC
-snapcore
-lsps -a
-topas -P
-rpm -qa	
-svmon -P -O summary=basic,unit=MB,sortentity=pgsp
-vmo -h lru_file_repage
-vmstat -v
-svmon -G
-vmo -L
-pagesize -a
-ps aux
-ps -kelf
-lsattr -El sys0| grep -i core
-lsdev -C -c adapter
-lscfg -v -l ent0
-svmon -P <pid>
-find . -inum 811011 -exec ls -l {} \;
-procfiles -n <pid>
-netstat -Aan
-kdb
-(0)> sockinfo 70593de4 tcpcb
-rmsock f100050000b05bb8 tcpcb
+    smitty
+    svmon
+    bootinfo -r
+    lsattr -El sys0
+    topas
+    swap -s
+    swap -l
+    ipcs
+    ipcrm
+    procstack <pid>
+    lslpp -l | grep xlC
+    snapcore
+    lsps -a
+    topas -P
+    rpm -qa	
+    svmon -P -O summary=basic,unit=MB,sortentity=pgsp
+    vmo -h lru_file_repage
+    vmstat -v
+    svmon -G
+    vmo -L
+    pagesize -a
+    ps aux
+    ps -kelf
+    lsattr -El sys0| grep -i core
+    lsdev -C -c adapter
+    lscfg -v -l ent0
+    svmon -P <pid>
+    find . -inum 811011 -exec ls -l {} \;
+    procfiles -n <pid>
+    netstat -Aan
+    kdb
+    (0)> sockinfo 70593de4 tcpcb
+    rmsock f100050000b05bb8 tcpcb
 
-dbx
-thread
-thread current
-where
-dbx -I
-stop CLASS:meth
-run -f
-cont
-where
-up
-dump
-file somefile.cpp
-list <lineno>
-stop at <lineno>
-run -test
+    dbx
+    thread
+    thread current
+    where
+    dbx -I
+    stop CLASS:meth
+    run -f
+    cont
+    where
+    up
+    dump
+    file somefile.cpp
+    list <lineno>
+    stop at <lineno>
+    run -test

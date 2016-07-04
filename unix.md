@@ -185,23 +185,21 @@ See man proc 5...
 
     audit2allow
 
-
-
 ### TODO
 
-top
-vmstat
-mpstat
-lsof
-prstat
-sar
-truss
-dtrace
-iostat
-locale
-locale -a
-audit2why
-perf
-strace
-script
-dd
+    top
+    vmstat
+    mpstat
+    lsof
+    prstat
+    sar
+    truss
+    dtrace
+    iostat
+    locale
+    locale -a
+    audit2why
+    perf
+    strace
+    script
+    dd

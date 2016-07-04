@@ -3,6 +3,6 @@
 
 ### TODO
 
-c++filt <file>
-nm
-readelf
+    c++filt <file>
+    nm
+    readelf

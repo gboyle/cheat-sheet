@@ -53,44 +53,44 @@
 
 ### TODO
 
-prtdiag
-prtconf
-swap -l
-top
-mdb
-bdx
-psrinfo -v
-prtconf
-prtdiag -v
-lsofg -p
-gcore
-pstack <pid>
-pstack <corefile>
-ipcs -m -a
-ipcrm -m 4608
-ipcrm -M 0x5efaa728
-sysdef
-sar
-iostat
-vmstat
-mpstat
-lockstat -gkIW sleep 60
-/usr/ucb/ps aux
-prstat -avm
-prstat -vL
-sar -u 10 5
-prstat -amL
-apptrace
-mount -F tmpfs -o size=20000m swap /mountpoint
-a=$(ramdiskadm -a bigdisk 20g)
-newfs $a
-mount $a /mountpoint
-eject cdrom
+    prtdiag
+    prtconf
+    swap -l
+    top
+    mdb
+    bdx
+    psrinfo -v
+    prtconf
+    prtdiag -v
+    lsofg -p
+    gcore
+    pstack <pid>
+    pstack <corefile>
+    ipcs -m -a
+    ipcrm -m 4608
+    ipcrm -M 0x5efaa728
+    sysdef
+    sar
+    iostat
+    vmstat
+    mpstat
+    lockstat -gkIW sleep 60
+    /usr/ucb/ps aux
+    prstat -avm
+    prstat -vL
+    sar -u 10 5
+    prstat -amL
+    apptrace
+    mount -F tmpfs -o size=20000m swap /mountpoint
+    a=$(ramdiskadm -a bigdisk 20g)
+    newfs $a
+    mount $a /mountpoint
+    eject cdrom
 
-gdb
-break main
-break CLASS:meth
+    gdb
+    break main
+    break CLASS:meth
 
-tell gdb to not stop on SIGILL which is used on Solaris to emulate instructions not supported by the current processor
-handle SIGILL noprint
-handle SIGILL nostop
+    tell gdb to not stop on SIGILL which is used on Solaris to emulate instructions not supported by the current processor
+    handle SIGILL noprint
+    handle SIGILL nostop
