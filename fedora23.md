@@ -76,6 +76,8 @@ Add XkbOptions numpad:microsoft to /etc/X11/xorg.conf.d/00-keyboard.conf:
 
 #### Add Application to Activities Menu
 
+[How to create shortcut in launcher?](https://ask.fedoraproject.org/en/question/30272/how-to-create-shortcut-in-launcher/)
+
 ### Editors and Integrated Development Enviroments
 
 #### Nano
