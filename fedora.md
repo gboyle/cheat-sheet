@@ -1,6 +1,6 @@
 
 
-# Fedora 23
+# Fedora
 
 ### Real Time Clock, Windows vs Linux
 
@@ -72,7 +72,11 @@ Add XkbOptions numpad:microsoft to /etc/X11/xorg.conf.d/00-keyboard.conf:
 
 ### Gnome
 
-#### Minimize and Restore Windows
+#### Minimize, Maximize, Restore Windows
+
+Minimize via right clicking title bar.
+Maximize via right clicking title bar or dragging the title bar to the top.
+Restore by clicking Activities and selecting window.
 
 #### Add Application to Activities Menu
 
@@ -90,7 +94,8 @@ Add XkbOptions numpad:microsoft to /etc/X11/xorg.conf.d/00-keyboard.conf:
 
 [Download Visual Studio Code](https://code.visualstudio.com/Download)
 
-#### Eclipse
+TODO: Go/Rust plugins...
 
-[Download Eclipse Technology](https://www.eclipse.org/downloads/)
+#### Codeblocks
 
+Crashes in Fedora 24.

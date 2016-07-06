@@ -18,3 +18,5 @@
 [Git](https://git-scm.com/)
 
 [Getting Git Right](https://www.atlassian.com/git/)
+
+[Markdown: Syntax](https://daringfireball.net/projects/markdown/syntax)
