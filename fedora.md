@@ -54,11 +54,17 @@ Add XkbOptions numpad:microsoft to /etc/X11/xorg.conf.d/00-keyboard.conf:
 
 #### Fix Windows+Arrow on Numeric Keypad
 
+It works on the cursor pad, which I never use, but not on the numeric keypad.
+
 ### Video
 
 #### Screen Tearing During Video Playback
 
+24 still tears most of the time but it's better than 23 (Centos was unbearable for tearing).
+
 #### Screen Saver Activates During Video Playback
+
+This is purely a hack when the application can't stop the screen saver.
 
     # set time to blank screen (seconds)
     gsettings set org.gnome.desktop.session idle-delay 3600
@@ -74,13 +80,41 @@ Add XkbOptions numpad:microsoft to /etc/X11/xorg.conf.d/00-keyboard.conf:
 
 #### Minimize, Maximize, Restore Windows
 
-Minimize via right clicking title bar.
-Maximize via right clicking title bar or dragging the title bar to the top.
-Restore by clicking Activities and selecting window.
+Suprisingly clunky. 
+
+* Minimize via right clicking title bar.
+* Maximize via right clicking title bar or dragging the title bar to the top.
+* Restore by clicking Activities and selecting window.
+
+Installing the gnome-tweak-tool allows you to add the expected minimize/maximize buttons that are missing by default.
+
+* dnf install gnome-tweak-tool
+* under Windows, Titlebar Buttons, Maximize/Minimize ON
+
+It still lacks a taskbar which makes managing screen real estate extremely clumsy.
+
 
 #### Add Application to Activities Menu
 
+First create a .desktop file for the application.
+
+    ~/.local/share/applications/jee-neon.desktop (or /usr/share/applications/jee-neon.desktop)
+
+    [Desktop Entry]
+    Encoding=UTF-8
+    Name=JEE Neon
+    Exec=/home/username/eclipse/jee-neon/eclipse/eclipse
+    Icon=/home/username/eclipse/jee-neon/eclipse/icon.xpm
+    Type=Application
+    
+Then use Activities, Type to search, enter the name, right click the icon, choose Add to Favorites.
+
+[How do you create a custom application launcher in Gnome Shell?](http://askubuntu.com/questions/112186/how-do-you-create-a-custom-application-launcher-in-gnome-shell)
 [How to create shortcut in launcher?](https://ask.fedoraproject.org/en/question/30272/how-to-create-shortcut-in-launcher/)
+
+#### Terminal Cut and Paste Clunky
+
+Finding that cut and paste is inconvenient and inconsistent....
 
 ### Editors and Integrated Development Enviroments
 
@@ -92,10 +126,21 @@ Restore by clicking Activities and selecting window.
 
 #### Visual Studio Code
 
+Download
+
 [Download Visual Studio Code](https://code.visualstudio.com/Download)
+
+Install
+
+    # For .rpm (Fedora 22 and above)
+    sudo dnf install <file>.rpm
 
 TODO: Go/Rust plugins...
 
 #### Codeblocks
 
 Crashes in Fedora 24.
+
+#### NetBeans
+
+Can't seem to open existing maven projects in Fedora 24.  
