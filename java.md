@@ -112,10 +112,10 @@ Use -DskipTests with maven to skip tests during build
         }        
     }
 
-[FindBugs Bug Descriptions](http://findbugs.sourceforge.net/bugDescriptions.html)
-[Best Practices for Exception Handling](http://www.onjava.com/pub/a/onjava/2003/11/19/exceptions.html)
-[Top 20 Java Exception Handling Best Practices](http://howtodoinjava.com/best-practices/java-exception-handling-best-practices/)
-[Exception-Handling Antipatterns Blog](https://community.oracle.com/docs/DOC-983543#antipatterns)
+[FindBugs Bug Descriptions](http://findbugs.sourceforge.net/bugDescriptions.html)  
+[Best Practices for Exception Handling](http://www.onjava.com/pub/a/onjava/2003/11/19/exceptions.html)  
+[Top 20 Java Exception Handling Best Practices](http://howtodoinjava.com/best-practices/java-exception-handling-best-practices/)  
+[Exception-Handling Antipatterns Blog](https://community.oracle.com/docs/DOC-983543#antipatterns)  
 
 ### Misc
 

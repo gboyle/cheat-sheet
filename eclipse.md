@@ -31,7 +31,7 @@ Right click, properties, Enable PMD, Use rule set, browse, set file, ok. Say no 
 * Under Programming Languages
 * Add C/C++ LLVM-Family Compiler Build Support
 
-[How to use clang/llvm with Eclipse CDT](http://stackoverflow.com/questions/5802448/how-to-use-clang-llvm-with-eclipse-cdt)
-[How do I setup a Clang Toolchain in Eclipse on Windows?](http://stackoverflow.com/questions/10973325/how-do-i-setup-a-clang-toolchain-in-eclipse-on-windows)
+[How to use clang/llvm with Eclipse CDT](http://stackoverflow.com/questions/5802448/how-to-use-clang-llvm-with-eclipse-cdt)  
+[How do I setup a Clang Toolchain in Eclipse on Windows?](http://stackoverflow.com/questions/10973325/how-do-i-setup-a-clang-toolchain-in-eclipse-on-windows)  
 
 #### Hover tip dialog backgrounds black

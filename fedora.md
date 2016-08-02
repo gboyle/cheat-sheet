@@ -109,8 +109,8 @@ First create a .desktop file for the application.
     
 Then use Activities, Type to search, enter the name, right click the icon, choose Add to Favorites.
 
-[How do you create a custom application launcher in Gnome Shell?](http://askubuntu.com/questions/112186/how-do-you-create-a-custom-application-launcher-in-gnome-shell)
-[How to create shortcut in launcher?](https://ask.fedoraproject.org/en/question/30272/how-to-create-shortcut-in-launcher/)
+[How do you create a custom application launcher in Gnome Shell?](http://askubuntu.com/questions/112186/how-do-you-create-a-custom-application-launcher-in-gnome-shell)  
+[How to create shortcut in launcher?](https://ask.fedoraproject.org/en/question/30272/how-to-create-shortcut-in-launcher/)  
 
 #### Terminal Cut and Paste Clunky
 

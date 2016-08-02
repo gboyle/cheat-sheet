@@ -18,8 +18,8 @@
     :set nobomb
     :wq   
 
-[How can I change a file's encoding with vim?](http://stackoverflow.com/questions/778069/how-can-i-change-a-files-encoding-with-vim)
-[Convert DOS line endings to Linux line endings in vim](http://stackoverflow.com/questions/82726/convert-dos-line-endings-to-linux-line-endings-in-vim)    
+[How can I change a file's encoding with vim?](http://stackoverflow.com/questions/778069/how-can-i-change-a-files-encoding-with-vim)  
+[Convert DOS line endings to Linux line endings in vim](http://stackoverflow.com/questions/82726/convert-dos-line-endings-to-linux-line-endings-in-vim)      
 
 ### Change Line Ending with dos2unix
 
