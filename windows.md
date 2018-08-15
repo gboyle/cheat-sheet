@@ -22,7 +22,7 @@
 
 ### Visual Studio Code
 
-	[How to disable telemetry reporting(]https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting)
+[How to disable telemetry reporting](https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting)
 	
 	File > Preferences > Settings
 		"telemetry.enableTelemetry": false
@@ -47,4 +47,4 @@
 		
 ## Other 
 
-	[github](https://github.com)
+[github](https://github.com)
