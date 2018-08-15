@@ -3,17 +3,17 @@
 
 ## Tools
 
-	[Firefox](https://www.mozilla.org/en-US/firefox/new/)
-	[Chrome](https://www.google.com/chrome/)
-	[Notepad++](https://notepad-plus-plus.org/)
-	[Visual Studio Code](https://code.visualstudio.com/)
-	[Visual Studio 2017 Community Edition](https://visualstudio.microsoft.com/)
-	[Git](https://git-scm.com/)
-	[CMake](https://cmake.org/)
-	[Malwarebytes](https://www.malwarebytes.com/)
-	[Sysinternals](https://docs.microsoft.com/en-us/sysinternals/)
-	[Acrobat Reader](https://get.adobe.com/reader/)
-	[7-zip](https://www.7-zip.org/)
+[Firefox](https://www.mozilla.org/en-US/firefox/new)
+[Chrome](https://www.google.com/chrome)
+[Notepad++](https://notepad-plus-plus.org)
+[Visual Studio Code](https://code.visualstudio.com)
+[Visual Studio 2017 Community Edition](https://visualstudio.microsoft.com)
+[Git](https://git-scm.com)
+[CMake](https://cmake.org)
+[Malwarebytes](https://www.malwarebytes.com)
+[Sysinternals](https://docs.microsoft.com/en-us/sysinternals)
+[Acrobat Reader](https://get.adobe.com/reader)
+[7-zip](https://www.7-zip.org)
 	
 ### Notepad++
 		
