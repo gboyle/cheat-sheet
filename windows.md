@@ -22,14 +22,14 @@
 
 ### Visual Studio Code
 
+	[How to disable telemetry reporting(]https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting)
+	
 	File > Preferences > Settings
 		"telemetry.enableTelemetry": false
-		https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting
 	
 ### Visual Studio 2017 Community Edition
 
 	Workload: Desktop development with C++
-		
 
 ### Sysinternals
 		
@@ -47,6 +47,4 @@
 		
 ## Other 
 
-### github
-
-		https://github.com
+	[github](https://github.com)
