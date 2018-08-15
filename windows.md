@@ -36,7 +36,11 @@
 	Process Explorer
 	Options > VirusTotal.com > Check VirusTotal.com
 
-		
+### Git
+
+	git config --global user.email "john.doe@gmail.com"
+	git config --global user.name "John Doe"
+
 ### 7-zip
 
 	Set file associations
